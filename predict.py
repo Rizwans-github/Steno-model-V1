@@ -15,7 +15,7 @@ model.load_state_dict(torch.load("model.pth", map_location=device))  # <-- We'll
 model.eval()
 
 # Image
-img = Image.open("augmented/pee_0.png").convert("RGB")
+img = Image.open("augmented/ng_0.png").convert("RGB")
 transform = T.Compose([
     T.Grayscale(),
     T.Resize((32, 128)),

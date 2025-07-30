@@ -19,7 +19,7 @@ optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
 criterion = CTCLoss(blank=0)
 
 # Training loop
-for epoch in range(35):
+for epoch in range(40):
     for imgs, labels in dataloader:
         imgs, labels = imgs.to(device), labels.to(device)
 

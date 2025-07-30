@@ -15,7 +15,7 @@ augmentations = T.Compose([
 ])
 
 # How many versions to make per image
-copies = 10
+copies = 30
 
 for filename in os.listdir(input_dir):
     if filename.endswith(".png"):

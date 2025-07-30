@@ -5,7 +5,7 @@ import torch
 
 char_map = get_char_map()
 dataset = ShorthandDataset("C:/Users/rizwa/Tech/Github/Steno/labels/labels.csv", 
-                           "C:/Users/rizwa/Tech/Github/Steno/images", 
+                           "C:/Users/rizwa/Tech/Github/Steno/augmented", 
                            char_map)
 print("Total samples:", len(dataset))
 
